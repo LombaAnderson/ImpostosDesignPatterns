@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CalculadorDeImpostos.cs" />
     <Compile Include="ICMS.cs" />
+    <Compile Include="Imposto.cs" />
     <Compile Include="ISS.cs" />
     <Compile Include="Orcamento.cs" />
     <Compile Include="Program.cs" />

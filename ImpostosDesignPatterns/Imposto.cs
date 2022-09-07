@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ImpostosDesignPatterns
 {
-    public class ICMS: Imposto
+     public interface Imposto
     {
-        public double Calcula(Orcamento orcamento)
-        {
-            return orcamento.Valor * 0.01;
-        }
+        double Calcula(Orcamento orcamento);
     }
 }

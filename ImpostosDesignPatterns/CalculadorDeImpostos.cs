@@ -5,9 +5,12 @@ namespace ImpostosDesignPatterns
 {
     public class CalculadorDeImpostos
     {
-        public void RealizaCalculoICMS(Orcamento orcamento)
+        public void RealizaCalculo(Orcamento orcamento, Imposto imposto)
         {
+            double icms = imposto.Calcula(orcamento);
+            Console.WriteLine(icms);
             
         }
+      
     }
 }
